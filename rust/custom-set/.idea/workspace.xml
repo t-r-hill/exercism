@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af3536f7-7d3d-4ee0-8669-7ddf839918d8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vot1tyvl" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2quDdeg1v8haQrbsRjd0KRLezlV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Test add_to_empty_set.executor": "Run",
+    "Cargo.Test add_to_non_empty_set.executor": "Run",
+    "Cargo.Test adding_an_existing_element_does_not_change_the_set.executor": "Run",
+    "Cargo.Test difference_of_a_non_empty_set_and_an_empty_set_is_the_non_empty_set.executor": "Run",
+    "Cargo.Test difference_of_empty_set_and_non_empty_set_is_an_empty_set.executor": "Run",
+    "Cargo.Test difference_of_two_empty_sets_is_an_empty_set.executor": "Run",
+    "Cargo.Test difference_of_two_non_empty_sets_is_a_set_of_elements_that_are_only_in_the_first_set.executor": "Run",
+    "Cargo.Test difference_removes_all_duplicates_in_the_first_set.executor": "Run",
+    "Cargo.Test empty_set_is_a_subset_of_another_empty_set.executor": "Run",
+    "Cargo.Test empty_set_is_a_subset_of_non_empty_set.executor": "Run",
+    "Cargo.Test empty_set_is_disjoint_with_non_empty_set.executor": "Run",
+    "Cargo.Test empty_set_is_not_equal_to_non_empty_set.executor": "Run",
+    "Cargo.Test empty_sets_are_equal.executor": "Run",
+    "Cargo.Test intersection_of_a_non_empty_set_and_an_empty_set_is_an_empty_set.executor": "Run",
+    "Cargo.Test intersection_of_an_empty_set_and_non_empty_set_is_an_empty_set.executor": "Run",
+    "Cargo.Test intersection_of_two_empty_sets_is_an_empty_set.executor": "Run",
+    "Cargo.Test intersection_of_two_sets_with_no_shared_elements_is_an_empty_set.executor": "Run",
+    "Cargo.Test intersection_of_two_sets_with_shared_elements_is_a_set_of_the_shared_elements.executor": "Run",
+    "Cargo.Test non_empty_set_is_disjoint_with_empty_set.executor": "Run",
+    "Cargo.Test non_empty_set_is_not_a_subset_of_empty_set.executor": "Run",
+    "Cargo.Test non_empty_set_is_not_equal_to_empty_set.executor": "Run",
+    "Cargo.Test nothing_is_contained_in_an_empty_set.executor": "Run",
+    "Cargo.Test set_is_a_subset_of_larger_set_with_same_elements.executor": "Run",
+    "Cargo.Test set_is_a_subset_of_set_with_exact_same_elements.executor": "Run",
+    "Cargo.Test set_is_equal_to_a_set_constructed_from_an_array_with_duplicates.executor": "Run",
+    "Cargo.Test set_is_not_a_subset_of_set_that_does_not_contain_its_elements.executor": "Run",
+    "Cargo.Test set_is_not_equal_to_larger_set_with_same_elements.executor": "Run",
+    "Cargo.Test sets_are_disjoint_if_they_share_no_elements.executor": "Run",
+    "Cargo.Test sets_are_not_disjoint_if_they_share_an_element.executor": "Run",
+    "Cargo.Test sets_with_different_elements_are_not_equal.executor": "Run",
+    "Cargo.Test sets_with_elements_are_not_empty.executor": "Run",
+    "Cargo.Test sets_with_no_elements_are_empty.executor": "Run",
+    "Cargo.Test sets_with_the_same_elements_are_equal.executor": "Run",
+    "Cargo.Test the_empty_set_is_disjoint_with_itself.executor": "Run",
+    "Cargo.Test union_of_a_non_empty_set_and_empty_set_is_the_non_empty_set.executor": "Run",
+    "Cargo.Test union_of_an_empty_set_and_non_empty_set_is_the_non_empty_set.executor": "Run",
+    "Cargo.Test union_of_empty_sets_is_an_empty_set.executor": "Run",
+    "Cargo.Test union_of_non_empty_sets_contains_all_unique_elements.executor": "Run",
+    "Cargo.Test when_the_element_is_in_the_set.executor": "Run",
+    "Cargo.Test when_the_element_is_not_in_the_set.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "last_opened_file_path": "/Users/thomashill/Exercism/rust/custom-set",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check"
+  }
+}]]></component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="tool" value="Clippy" />
+  </component>
+  <component name="RunManager" selected="Cargo.Test union_of_non_empty_sets_contains_all_unique_elements">
+    <configuration name="Test custom-set" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --workspace" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test difference_removes_all_duplicates_in_the_first_set" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package custom-set --test custom-set difference_removes_all_duplicates_in_the_first_set -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test union_of_a_non_empty_set_and_empty_set_is_the_non_empty_set" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package custom-set --test custom-set union_of_a_non_empty_set_and_empty_set_is_the_non_empty_set -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test union_of_an_empty_set_and_non_empty_set_is_the_non_empty_set" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package custom-set --test custom-set union_of_an_empty_set_and_non_empty_set_is_the_non_empty_set -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test union_of_empty_sets_is_an_empty_set" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package custom-set --test custom-set union_of_empty_sets_is_an_empty_set -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test union_of_non_empty_sets_contains_all_unique_elements" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package custom-set --test custom-set union_of_non_empty_sets_contains_all_unique_elements -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test union_of_non_empty_sets_contains_all_unique_elements" />
+        <item itemvalue="Cargo.Test union_of_a_non_empty_set_and_empty_set_is_the_non_empty_set" />
+        <item itemvalue="Cargo.Test union_of_an_empty_set_and_non_empty_set_is_the_non_empty_set" />
+        <item itemvalue="Cargo.Test union_of_empty_sets_is_an_empty_set" />
+        <item itemvalue="Cargo.Test difference_removes_all_duplicates_in_the_first_set" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af3536f7-7d3d-4ee0-8669-7ddf839918d8" name="Changes" comment="" />
+      <created>1735503654569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735503654569</updated>
+      <workItem from="1735503655674" duration="16814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

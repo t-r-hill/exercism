@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c3f37b9-f8b6-4043-aec1-e89e051e5711" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="n8a06y99" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2sVEKmhnmUO2IQh1B2WeohtB8RY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Expand poker.executor": "Run",
+    "Cargo.Test All.executor": "Run",
+    "Cargo.Test a_straight_beats_three_of_a_kind.executor": "Run",
+    "Cargo.Test a_tie_has_multiple_winners.executor": "Run",
+    "Cargo.Test aces_can_end_a_straight_10_j_q_k_a.executor": "Run",
+    "Cargo.Test aces_can_end_a_straight_flush_10_j_q_k_a.executor": "Run",
+    "Cargo.Test aces_can_start_a_straight_a_2_3_4_5.executor": "Run",
+    "Cargo.Test aces_can_start_a_straight_flush_a_2_3_4_5.executor": "Run",
+    "Cargo.Test aces_cannot_be_in_the_middle_of_a_straight_flush_q_k_a_2_3.executor": "Run",
+    "Cargo.Test aces_cannot_be_in_the_middle_of_a_straight_q_k_a_2_3.executor": "Run",
+    "Cargo.Test both_hands_have_a_flush_tie_goes_to_high_card_down_to_the_last_one_if_necessary.executor": "Run",
+    "Cargo.Test both_hands_have_a_full_house_tie_goes_to_highest_ranked_triplet.executor": "Run",
+    "Cargo.Test both_hands_have_a_straight_flush_tie_goes_to_highest_ranked_card.executor": "Run",
+    "Cargo.Test both_hands_have_four_of_a_kind_tie_goes_to_high_quad.executor": "Run",
+    "Cargo.Test both_hands_have_the_same_pair_high_card_wins.executor": "Run",
+    "Cargo.Test both_hands_have_three_of_a_kind_tie_goes_to_highest_ranked_triplet.executor": "Run",
+    "Cargo.Test both_hands_have_two_identically_ranked_pairs_tie_goes_to_remaining_card_kicker.executor": "Run",
+    "Cargo.Test both_hands_have_two_pairs_highest_ranked_pair_wins.executor": "Run",
+    "Cargo.Test both_hands_have_two_pairs_that_add_to_the_same_value_win_goes_to_highest_pair.executor": "Run",
+    "Cargo.Test both_hands_have_two_pairs_with_the_same_highest_ranked_pair_tie_goes_to_low_pair.executor": "Run",
+    "Cargo.Test both_hands_with_a_straight_tie_goes_to_highest_ranked_card.executor": "Run",
+    "Cargo.Test even_though_an_ace_is_usually_high_a_5_high_straight_flush_is_the_lowest_scoring_straight_flush.executor": "Run",
+    "Cargo.Test even_though_an_ace_is_usually_high_a_5_high_straight_is_the_lowest_scoring_straight.executor": "Run",
+    "Cargo.Test flush_beats_a_straight.executor": "Run",
+    "Cargo.Test four_of_a_kind_beats_a_full_house.executor": "Run",
+    "Cargo.Test full_house_beats_a_flush.executor": "Run",
+    "Cargo.Test highest_card_out_of_all_hands_wins.executor": "Run",
+    "Cargo.Test highest_pair_wins.executor": "Run",
+    "Cargo.Test multiple_hands_with_the_same_high_cards_tie_compares_next_highest_ranked_down_to_last_card.executor": "Run",
+    "Cargo.Test one_pair_beats_high_card.executor": "Run",
+    "Cargo.Test single_hand_always_wins.executor": "Run",
+    "Cargo.Test straight_flush_beats_four_of_a_kind.executor": "Run",
+    "Cargo.Test three_of_a_kind_beats_two_pair.executor": "Run",
+    "Cargo.Test two_pairs_beats_one_pair.executor": "Run",
+    "Cargo.Test two_pairs_first_ranked_by_largest_pair.executor": "Run",
+    "Cargo.Test winning_high_card_hand_also_has_the_lowest_card.executor": "Run",
+    "Cargo.Test with_multiple_decks_both_hands_have_a_full_house_with_the_same_triplet_tie_goes_to_the_pair.executor": "Run",
+    "Cargo.Test with_multiple_decks_both_hands_with_identical_four_of_a_kind_tie_determined_by_kicker.executor": "Run",
+    "Cargo.Test with_multiple_decks_two_players_can_have_same_three_of_a_kind_ties_go_to_highest_remaining_cards.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "last_opened_file_path": "/Users/thomashill/Exercism/rust/poker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="runOnTheFly" value="true" />
+    <option name="tool" value="Clippy" />
+  </component>
+  <component name="RunManager" selected="Cargo.Test All">
+    <configuration name="Test All" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package poker -- --include-ignored" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test aces_can_start_a_straight_flush_a_2_3_4_5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package poker --test poker aces_can_start_a_straight_flush_a_2_3_4_5 -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test aces_cannot_be_in_the_middle_of_a_straight_flush_q_k_a_2_3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package poker --test poker aces_cannot_be_in_the_middle_of_a_straight_flush_q_k_a_2_3 -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test both_hands_have_a_straight_flush_tie_goes_to_highest_ranked_card" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package poker --test poker both_hands_have_a_straight_flush_tie_goes_to_highest_ranked_card -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test even_though_an_ace_is_usually_high_a_5_high_straight_flush_is_the_lowest_scoring_straight_flush" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package poker --test poker even_though_an_ace_is_usually_high_a_5_high_straight_flush_is_the_lowest_scoring_straight_flush -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test poker" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --workspace" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Test poker" />
+      <item itemvalue="Cargo.Test aces_can_start_a_straight_flush_a_2_3_4_5" />
+      <item itemvalue="Cargo.Test aces_cannot_be_in_the_middle_of_a_straight_flush_q_k_a_2_3" />
+      <item itemvalue="Cargo.Test both_hands_have_a_straight_flush_tie_goes_to_highest_ranked_card" />
+      <item itemvalue="Cargo.Test even_though_an_ace_is_usually_high_a_5_high_straight_flush_is_the_lowest_scoring_straight_flush" />
+      <item itemvalue="Cargo.Test All" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test All" />
+        <item itemvalue="Cargo.Test aces_can_start_a_straight_flush_a_2_3_4_5" />
+        <item itemvalue="Cargo.Test even_though_an_ace_is_usually_high_a_5_high_straight_flush_is_the_lowest_scoring_straight_flush" />
+        <item itemvalue="Cargo.Test both_hands_have_a_straight_flush_tie_goes_to_highest_ranked_card" />
+        <item itemvalue="Cargo.Test aces_cannot_be_in_the_middle_of_a_straight_flush_q_k_a_2_3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c3f37b9-f8b6-4043-aec1-e89e051e5711" name="Changes" comment="" />
+      <created>1738532279342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738532279342</updated>
+      <workItem from="1738532280385" duration="44550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

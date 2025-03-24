@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7e188c0-5588-4b5a-bd55-e0175733c66b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="88ldgy92" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2srtV9AfZuUv8z1Jvnr0pCXv1Ve" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Test addition.executor": "Run",
+    "Cargo.Test addition::can_add_two_numbers.executor": "Run",
+    "Cargo.Test addition::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test addition::errors_if_there_is_only_one_value_on_the_stack.executor": "Run",
+    "Cargo.Test alloc_attack.executor": "Run",
+    "Cargo.Test case_insensitivity::definitions_are_case_insensitive.executor": "Run",
+    "Cargo.Test case_insensitivity::drop_is_case_insensitive.executor": "Run",
+    "Cargo.Test case_insensitivity::dup_is_case_insensitive.executor": "Run",
+    "Cargo.Test case_insensitivity::over_is_case_insensitive.executor": "Run",
+    "Cargo.Test case_insensitivity::swap_is_case_insensitive.executor": "Run",
+    "Cargo.Test case_insensitivity::user_defined_words_are_case_insensitive.executor": "Run",
+    "Cargo.Test combined_arithmetic::addition_and_subtraction.executor": "Run",
+    "Cargo.Test combined_arithmetic::multiplication_and_division.executor": "Run",
+    "Cargo.Test division::can_divide_two_numbers.executor": "Run",
+    "Cargo.Test division::errors_if_dividing_by_zero.executor": "Run",
+    "Cargo.Test division::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test division::errors_if_there_is_only_one_value_on_the_stack.executor": "Run",
+    "Cargo.Test division::performs_integer_division.executor": "Run",
+    "Cargo.Test drop::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test drop::removes_the_top_value_on_the_stack_if_it_is_not_the_only_one.executor": "Run",
+    "Cargo.Test drop::removes_the_top_value_on_the_stack_if_it_is_the_only_one.executor": "Run",
+    "Cargo.Test dup::copies_a_value_on_the_stack.executor": "Run",
+    "Cargo.Test dup::copies_the_top_value_on_the_stack.executor": "Run",
+    "Cargo.Test dup::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test multiplication::can_multiply_two_numbers.executor": "Run",
+    "Cargo.Test multiplication::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test multiplication::errors_if_there_is_only_one_value_on_the_stack.executor": "Run",
+    "Cargo.Test over::copies_the_second_element_if_there_are_more_than_two.executor": "Run",
+    "Cargo.Test over::copies_the_second_element_if_there_are_only_two.executor": "Run",
+    "Cargo.Test over::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test over::errors_if_there_is_only_one_value_on_the_stack.executor": "Run",
+    "Cargo.Test parsing_and_numbers::numbers_just_get_pushed_onto_the_stack.executor": "Run",
+    "Cargo.Test parsing_and_numbers::pushes_negative_numbers_onto_the_stack.executor": "Run",
+    "Cargo.Test subtraction.executor": "Run",
+    "Cargo.Test subtraction::can_subtract_two_numbers.executor": "Run",
+    "Cargo.Test subtraction::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test subtraction::errors_if_there_is_only_one_value_on_the_stack.executor": "Run",
+    "Cargo.Test swap::errors_if_there_is_nothing_on_the_stack.executor": "Run",
+    "Cargo.Test swap::errors_if_there_is_only_one_value_on_the_stack.executor": "Run",
+    "Cargo.Test swap::swaps_the_top_two_values_on_the_stack_if_they_are_not_the_only_ones.executor": "Run",
+    "Cargo.Test swap::swaps_the_top_two_values_on_the_stack_if_they_are_the_only_ones.executor": "Run",
+    "Cargo.Test user_defined_words::can_consist_of_built_in_words.executor": "Run",
+    "Cargo.Test user_defined_words::can_define_word_that_uses_word_with_the_same_name.executor": "Run",
+    "Cargo.Test user_defined_words::can_override_built_in_operators.executor": "Run",
+    "Cargo.Test user_defined_words::can_override_built_in_words.executor": "Run",
+    "Cargo.Test user_defined_words::can_override_other_user_defined_words.executor": "Run",
+    "Cargo.Test user_defined_words::can_use_different_words_with_the_same_name.executor": "Run",
+    "Cargo.Test user_defined_words::cannot_redefine_negative_numbers.executor": "Run",
+    "Cargo.Test user_defined_words::cannot_redefine_non_negative_numbers.executor": "Run",
+    "Cargo.Test user_defined_words::errors_if_executing_a_non_existent_word.executor": "Run",
+    "Cargo.Test user_defined_words::execute_in_the_right_order.executor": "Run",
+    "Cargo.Test user_defined_words::only_defines_locally.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "last_opened_file_path": "/Users/thomashill/Exercism/rust/forth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check"
+  }
+}]]></component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="runOnTheFly" value="true" />
+    <option name="tool" value="Clippy" />
+  </component>
+  <component name="RunManager" selected="Cargo.Test alloc_attack">
+    <configuration name="Test addition::errors_if_there_is_nothing_on_the_stack" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package forth --test forth addition::errors_if_there_is_nothing_on_the_stack -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test addition::errors_if_there_is_only_one_value_on_the_stack" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package forth --test forth addition::errors_if_there_is_only_one_value_on_the_stack -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test alloc_attack" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package forth --test alloc-attack alloc_attack -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test forth" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --workspace" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test subtraction" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package forth --test forth subtraction" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test subtraction::can_subtract_two_numbers" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package forth --test forth subtraction::can_subtract_two_numbers -- --ignored --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test alloc_attack" />
+        <item itemvalue="Cargo.Test subtraction::can_subtract_two_numbers" />
+        <item itemvalue="Cargo.Test subtraction" />
+        <item itemvalue="Cargo.Test addition::errors_if_there_is_only_one_value_on_the_stack" />
+        <item itemvalue="Cargo.Test addition::errors_if_there_is_nothing_on_the_stack" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7e188c0-5588-4b5a-bd55-e0175733c66b" name="Changes" comment="" />
+      <created>1739225541601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739225541601</updated>
+      <workItem from="1739225542692" duration="42496000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

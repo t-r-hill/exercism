@@ -30,7 +30,9 @@ impl Decimal {
         match input.chars().next() {
             Some('+') => Self::parse_decimal(&input[1..], DecimalSign::Positive),
             Some('-') => Self::parse_decimal(&input[1..], DecimalSign::Negative),
-            Some(digit) if digit.is_digit(10) => Self::parse_decimal(input, DecimalSign::Positive),
+            Some(digit) if digit.is_ascii_digit() => {
+                Self::parse_decimal(input, DecimalSign::Positive)
+            }
             _ => None,
         }
     }
@@ -105,10 +107,8 @@ impl Decimal {
                 match lhs_int.cmp(rhs_int) {
                     Ordering::Equal => {
                         let lhs_fract = &lhs.digits[lhs_int_len..];
-
                         let rhs_fract = &rhs.digits[rhs_int_len..];
-
-                        lhs_fract.cmp(&rhs_fract)
+                        lhs_fract.cmp(rhs_fract)
                     }
                     other => other,
                 }

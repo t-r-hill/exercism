@@ -54,29 +54,17 @@ impl<T> LinkedList<T> {
 
     /// Return a cursor positioned on the front element
     pub fn cursor_front(&mut self) -> Cursor<'_, T> {
-        match self.head {
-            Some(head) => Cursor {
-                current: Some(head),
-                list: self,
-            },
-            None => Cursor {
-                current: None,
-                list: self,
-            },
+        Cursor {
+            current: self.head,
+            list: self,
         }
     }
 
     /// Return a cursor positioned on the back element
     pub fn cursor_back(&mut self) -> Cursor<'_, T> {
-        match self.tail {
-            Some(tail) => Cursor {
-                current: Some(tail),
-                list: self,
-            },
-            None => Cursor {
-                current: None,
-                list: self,
-            },
+        Cursor {
+            current: self.tail,
+            list: self,
         }
     }
 
@@ -176,7 +164,7 @@ impl<T> Cursor<'_, T> {
             };
             let new_node_ptr = Box::into_raw(Box::new(new_node));
             if let Some(node) = self.current {
-                if let Some(next) = node.as_mut().unwrap().next {
+                if let Some(next) = node.as_mut().and_then(|node| node.next) {
                     (*next).prev = Some(new_node_ptr);
                 } else {
                     self.list.tail = Some(new_node_ptr);
@@ -202,7 +190,7 @@ impl<T> Cursor<'_, T> {
             };
             let new_node_ptr = Box::into_raw(Box::new(new_node));
             if let Some(node) = self.current {
-                if let Some(prev) = node.as_mut().unwrap().prev {
+                if let Some(prev) = node.as_mut().and_then(|node| node.prev) {
                     (*prev).next = Some(new_node_ptr);
                 } else {
                     self.list.head = Some(new_node_ptr);

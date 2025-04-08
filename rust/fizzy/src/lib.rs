@@ -79,15 +79,15 @@ impl<'a, T: Copy + Display> Fizzy<'a, T> {
 /// convenience function: return a Fizzy which applies the standard fizz-buzz rules
 pub fn fizz_buzz<T>() -> Fizzy<'static, T>
 where
-    T: From<u8> + PartialEq + Rem<Output = T> + Copy + Display,
+    T: From<u8> + PartialEq + Rem<Output = T> + Copy + Display + Default,
 {
     Fizzy::new()
         .add_matcher(Matcher::new(
-            |item: T| item % T::from(3u8) == T::from(0u8),
+            |item: T| item % T::from(3u8) == T::default(),
             "fizz",
         ))
         .add_matcher(Matcher::new(
-            |item: T| item % T::from(5u8) == T::from(0u8),
+            |item: T| item % T::from(5u8) == T::default(),
             "buzz",
         ))
 }

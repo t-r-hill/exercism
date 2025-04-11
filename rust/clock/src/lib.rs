@@ -3,7 +3,7 @@ use std::fmt::{Display, Formatter};
 #[derive(Debug)]
 pub struct Clock {
     hours: i32,
-    minutes: i32
+    minutes: i32,
 }
 
 impl Clock {
@@ -11,13 +11,16 @@ impl Clock {
         let mut minutes_trim = minutes % 60;
         let mut hours_trim = (hours + (minutes / 60)) % 24;
         if minutes_trim < 0 {
-            minutes_trim = 60 + minutes_trim;
+            minutes_trim += 60;
             hours_trim -= 1;
         }
         if hours_trim < 0 {
-            hours_trim = 24 + hours_trim;
+            hours_trim += 24;
         }
-        Clock{ hours: hours_trim, minutes: minutes_trim }
+        Clock {
+            hours: hours_trim,
+            minutes: minutes_trim,
+        }
     }
 
     pub fn add_minutes(&self, minutes: i32) -> Self {

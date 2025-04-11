@@ -3,14 +3,13 @@
 
 #[derive(Debug)]
 pub struct Duration {
-    seconds: u64,
-    earth_years: f64
+    earth_years: f64,
 }
 
 impl Duration {
     fn new(seconds: u64) -> Self {
         let earth_years = seconds as f64 / 31557600.0;
-        Duration { seconds, earth_years}
+        Duration { earth_years }
     }
 }
 

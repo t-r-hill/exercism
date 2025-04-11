@@ -186,9 +186,9 @@ impl<'a, T: Copy + PartialEq> Reactor<'a, T> {
     ) -> T {
         let dependency_values = dependencies
             .iter()
-            .map(|cell_id| match cell_id {
-                &CellId::Input(InputCellId(index)) => self.input_cells[index],
-                &CellId::Compute(ComputeCellId(index)) => self.compute_cells[index].value,
+            .map(|cell_id| match *cell_id {
+                CellId::Input(InputCellId(index)) => self.input_cells[index],
+                CellId::Compute(ComputeCellId(index)) => self.compute_cells[index].value,
             })
             .collect::<Vec<_>>();
         compute_function(&dependency_values)

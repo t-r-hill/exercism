@@ -7,7 +7,9 @@ students = [Alice, Bob, Charlie, David, Eve, Fred, Ginny, Harriet, Ileana, Josep
 
 plants : Str, Student -> Result (List Plant) _
 plants = |diagram, student|
-    index = Result.map_ok(List.find_first_index(students, |elem| elem == student), |ix| ix * 2)?
+    index =
+        List.find_first_index(students, |elem| elem == student)
+        |> Result.map_ok(|ix| ix * 2)?
     Str.split_on(diagram, "\n")
     |> List.join_map(
         |row|

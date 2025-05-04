@@ -7,17 +7,16 @@ saddle_points : Forest -> Set Position
 saddle_points = |tree_heights|
     tree_heights
     |> List.map_with_index(
-        |row, row_index|
-            row
+        |r, row_index|
+            r
             |> List.walk_with_index(
                 [],
                 |max, height, column_index|
-                    if height > Result.with_default(List.get(max, 0), { height: 0, column_index: 0, row_index: 0 }).height then
-                        [{ height, column_index, row_index }]
-                    else if height == Result.with_default(List.get(max, 0), { height: 0, column_index: 0, row_index: 0 }).height then
-                        List.append(max, { height, column_index, row_index })
-                    else
-                        max,
+                    when max is
+                        [] -> [{ max_height: height, position: { row: row_index, column: column_index } }]
+                        [{ max_height }, ..] if height > max_height -> [{ max_height: height, position: { row: row_index, column: column_index } }]
+                        [{ max_height }, ..] if height == max_height -> List.append(max, { max_height: height, position: { row: row_index, column: column_index } })
+                        _ -> max,
             ),
     )
     |> List.join
@@ -29,12 +28,16 @@ saddle_points = |tree_heights|
                 |_, row_index|
                     height =
                         List.get(tree_heights, row_index)
-                        |> Result.try(|row| List.get(row, max_in_row.column_index))
+                        |> Result.try(|row| List.get(row, max_in_row.position.column))
                         |> Result.with_default(0)
-                    if height >= max_in_row.height then
-                        Continue([{ row: max_in_row.row_index + 1, column: max_in_row.column_index + 1 }])
+                    if height >= max_in_row.max_height then
+                        Continue([max_in_row.position |> to_one_indexed])
                     else
                         Break([]),
             ),
     )
     |> Set.from_list
+
+to_one_indexed : Position -> Position
+to_one_indexed = |position|
+    { row: position.row + 1, column: position.column + 1 }

@@ -2,14 +2,11 @@ module [count_words]
 
 count_words : Str -> Dict Str U64
 count_words = |sentence|
-    all_chars =
-        sentence
-        |> Str.with_ascii_lowercased
-        |> Str.to_utf8
-        |> List.append(' ')
-
-    List.walk(
-        all_chars,
+    sentence
+    |> Str.with_ascii_lowercased
+    |> Str.to_utf8
+    |> List.append(' ')
+    |> List.walk(
         (Dict.empty({}), []),
         |(words, buffer), char|
             if is_separator(char) and to_word_no_quotes(buffer) != "" then
@@ -18,7 +15,8 @@ count_words = |sentence|
                 (words, buffer)
             else
                 (words, List.append(buffer, char)),
-    ).0
+    )
+    |> .0
 
 is_separator : U8 -> Bool
 is_separator = |char|

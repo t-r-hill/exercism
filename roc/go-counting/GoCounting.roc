@@ -59,12 +59,12 @@ territories = |board_str|
                 current_stone = get_stone_at_intersection(board_grid, current_intersection)
                 when current_stone is
                     Ok(None) ->
-                        (with_owners, visited) = determine_territory(board_grid, current_intersection, visited_state, territories_state)
+                        ({ owners, territory: calc_territory }, visited) = determine_territory(board_grid, current_intersection, visited_state, { owners: Set.empty({}), territory: Set.empty({}) })
                         new_territories =
-                            when Set.to_list(with_owners.owners) is
-                                [Black] -> { territories_state & black: Set.union(territories_state.black, with_owners.territory) }
-                                [White] -> { territories_state & white: Set.union(territories_state.white, with_owners.territory) }
-                                _ -> { territories_state & none: Set.union(territories_state.none, with_owners.territory) }
+                            when Set.to_list(owners) is
+                                [Black] -> { territories_state & black: Set.union(territories_state.black, calc_territory) }
+                                [White] -> { territories_state & white: Set.union(territories_state.white, calc_territory) }
+                                _ -> { territories_state & none: Set.union(territories_state.none, calc_territory) }
                         (new_territories, visited)
 
                     _ -> (territories_state, visited_state),
@@ -93,7 +93,7 @@ determine_territory = |board_grid, { x, y }, visited, current_territory|
                     )
                 next_moves
 
-            Ok(stone_colour) -> ({ current_territory & owners: Set.insert(current_territory.owners, stone_colour) }, new_visited)
+            Ok(stone_colour) -> ({ current_territory & owners: Set.insert(current_territory.owners, stone_colour) }, visited)
             Err _ -> (current_territory, new_visited)
 
 move_intersection : Intersection, Move -> Result Intersection [InvalidMove]
